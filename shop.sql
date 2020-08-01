@@ -32,7 +32,7 @@ CREATE TABLE `coupon` (
   `id` int(255) NOT NULL,
   `code` varchar(10) NOT NULL,
   `value` int(255) NOT NULL,
-  `isUse` int(255) NOT NULL
+  `isUse` int(255) NOT NULL,
   `usedBy` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
